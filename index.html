@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Uganda AIDS Marathon 2026 — Run For Hope. Act For Life. Join thousands of runners in Kampala on 29th November 2026.">
   <title>Uganda AIDS Marathon 2026 | Run For Hope. Act For Life.</title>
+  <link rel="icon" type="image/png" href="assets/favicon_image.png">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -425,7 +426,7 @@
       width: 100%;
       max-width: 1200px;
       margin: 0 auto;
-      padding: 72px 24px 88px;
+      padding: 48px 24px 64px;
     }
     .hero-eyebrow {
       font-family: var(--font-s);
@@ -760,6 +761,13 @@
       height: 10px;
       border-radius: 50%;
       flex-shrink: 0;
+    }
+    .sp-pill-logo { padding: 10px 20px; }
+    .sp-pill-logo img {
+      height: 66px;
+      width: auto;
+      object-fit: contain;
+      display: block;
     }
     .sponsors-cta { text-align: center; }
 
@@ -1413,6 +1421,16 @@
       .footer-bottom { flex-direction: column; text-align: center; }
     }
 
+    @media (max-height: 800px) {
+      .hero-h1 { font-size: clamp(2.8rem, 7vw, 5.5rem); margin-bottom: 14px; }
+      .hero-tagline { font-size: 1rem; margin-bottom: 6px; }
+      .hero-date { font-size: 0.78rem; margin-bottom: 20px; }
+      .hero-content { padding: 36px 24px 48px; }
+      .cd-card { min-width: 72px; padding: 12px 10px 10px; }
+      .cd-num  { font-size: 2.6rem; }
+      .hero-ctas { margin-top: 24px; }
+    }
+
     @media (max-width: 480px) {
       .cd-card { min-width: 68px; padding: 12px 8px 10px; }
       .cd-num  { font-size: 2.5rem; }
@@ -1674,23 +1692,23 @@
     <div class="marquee-wrap">
       <div class="marquee-track">
         <!-- Set 1 -->
-        <div class="sp-pill"><span class="sp-dot" style="background:#0763AF;"></span>Uganda AIDS Commission</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#D9600A;"></span>Village Journeys Africa</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#2D6A2D;"></span>Ministry of Health Uganda</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#CC0000;"></span>UNAIDS</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#111;"></span>New Vision</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#F5C518;"></span>MTN Uganda</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#CC0000;"></span>Airtel Uganda</div>
-        <div class="sp-pill invite">+ Your Company Here</div>
+        <div class="sp-pill sp-pill-logo"><img src="assets/uganda_aids_commission_logo.png" alt="Uganda AIDS Commission"></div>
+        <div class="sp-pill sp-pill-logo"><img src="assets/village_journeys_logo.png" alt="Village Journeys Africa"></div>
+        <div class="sp-pill sp-pill-logo"><img src="assets/taso_logo.png" alt="TASO"></div>
+        <div class="sp-pill invite">+ Sponsor 1</div>
+        <div class="sp-pill invite">+ Sponsor 2</div>
+        <div class="sp-pill invite">+ Sponsor 3</div>
+        <div class="sp-pill invite">+ Sponsor 4</div>
+        <div class="sp-pill invite">+ Sponsor 5</div>
         <!-- Set 2 (duplicate for seamless loop) -->
-        <div class="sp-pill"><span class="sp-dot" style="background:#0763AF;"></span>Uganda AIDS Commission</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#D9600A;"></span>Village Journeys Africa</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#2D6A2D;"></span>Ministry of Health Uganda</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#CC0000;"></span>UNAIDS</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#111;"></span>New Vision</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#F5C518;"></span>MTN Uganda</div>
-        <div class="sp-pill"><span class="sp-dot" style="background:#CC0000;"></span>Airtel Uganda</div>
-        <div class="sp-pill invite">+ Your Company Here</div>
+        <div class="sp-pill sp-pill-logo"><img src="assets/uganda_aids_commission_logo.png" alt="Uganda AIDS Commission"></div>
+        <div class="sp-pill sp-pill-logo"><img src="assets/village_journeys_logo.png" alt="Village Journeys Africa"></div>
+        <div class="sp-pill sp-pill-logo"><img src="assets/taso_logo.png" alt="TASO"></div>
+        <div class="sp-pill invite">+ Sponsor 1</div>
+        <div class="sp-pill invite">+ Sponsor 2</div>
+        <div class="sp-pill invite">+ Sponsor 3</div>
+        <div class="sp-pill invite">+ Sponsor 4</div>
+        <div class="sp-pill invite">+ Sponsor 5</div>
       </div>
     </div>
 
